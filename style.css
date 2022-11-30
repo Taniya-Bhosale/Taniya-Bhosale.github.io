@@ -26,7 +26,7 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #504e4e;
+  color: #3e9150;
   display: block;
 }
 
@@ -199,7 +199,7 @@ body {
   bottom: 0px;
   display: block;
   width: 4px;
-  border-left: dashed 1px #897f8a;
+  border-left: dashed 1px #ffffff;
 }
 
 .timeline-centered .timeline-entry {
@@ -270,7 +270,7 @@ body {
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;
-  color: #424250;
+  color: #d1d1d1; 
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner p.designation {
@@ -278,10 +278,12 @@ body {
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
+  color: #54b161; 
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner p.description {
   margin-top: 13px;
+  color: #d1d1d1;
   /* word-break: break-all; */
 }
 
@@ -676,6 +678,7 @@ ul.info-list li span {
 
 .tbo-list > .tbo-list-group-item {
   margin-bottom: 10px;
+  color: white;
 }
 
 .social-profiles {
@@ -685,7 +688,7 @@ ul.info-list li span {
 .social-profiles > a {
   margin-right: 18px;
   font-size: 24px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .social-profiles > a:hover {
@@ -772,7 +775,7 @@ ul.info-list li span {
 }
 
 .projects-list .card-deck .card-title {
-  color: #ffffff;
+  color: #000000;
 }
 
 .bordercolor{
@@ -847,4 +850,12 @@ ul.info-list li span {
 }
 .title{
   color: white;
+}
+.indeed-blue{
+  color: #024cb9;
+}
+
+.indeed-underline {
+  text-decoration-line: underline;
+  text-decoration-color: #024cb9;
 }
